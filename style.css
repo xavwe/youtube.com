@@ -19,4 +19,7 @@
 .video-preview {
   width: 300px;
   display: inline-block;
+  vertical-align: top;
+  margin-right: 7.5px;
+  margin-left: 7.5px;
 }/*# sourceMappingURL=style.css.map */
