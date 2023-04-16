@@ -1,14 +1,23 @@
-main {
+#video_grid-section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   -moz-column-gap: 16px;
        column-gap: 16px;
   row-gap: 35px;
 }
 
 @media (max-width: 800px) {
-  main {
+  #video_grid-section {
     grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  #video_grid-section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1000px) {
+  #video_grid-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 .video_title-p {
@@ -39,7 +48,6 @@ main {
 }
 
 .video_time-div {
-  font-family: Roboto, Arial;
   font-size: 12px;
   font-weight: 500;
   padding: 4px;

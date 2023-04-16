@@ -1,20 +1,22 @@
-main {
+#video_grid-section {
     display: grid;
     column-gap: 16px;
     row-gap: 35px;
 }
 @media (max-width: 800px) {
-    main {
+    #video_grid-section {
         grid-template-columns: 1fr 1fr;
     }
 }
 @media (min-width: 751px) and (max-width: 999px) {
-    .main {
+    #video_grid-section {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media (min-width: 1000px) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    #video_grid-section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    
 }
 
 
