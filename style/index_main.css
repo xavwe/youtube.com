@@ -1,11 +1,16 @@
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   -moz-column-gap: 16px;
        column-gap: 16px;
   row-gap: 35px;
 }
 
+@media (max-width: 800px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .video_title-p {
   margin-top: 0;
   font-size: 14px;
