@@ -24,13 +24,6 @@ p {
 
 // div
 
-.video_preview-div {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 7.5px;
-    margin-left: 7.5px;
-}
 .channel_picture-div {
     vertical-align: top;
 }
@@ -41,7 +34,12 @@ p {
     display: grid;
     grid-template-columns: 50px 1fr;
 }
-
+.preview-grid-div {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 16px;
+row-gap: 35px;
+}
 
 // img
 
@@ -50,10 +48,7 @@ p {
     border-radius: 50px;
 }
 .thumbnail-img {
-    display: block;
-    height: 170px;
-    object-fit: cover;
-    object-position: center;
+    width: 100%;
 }
 
 
