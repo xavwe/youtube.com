@@ -18,6 +18,15 @@ header {
   left: 0px;
 }
 
+.right-flexbox-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 180px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
 .left-flexbox-div {
   display: flex;
   align-items: center;
@@ -30,15 +39,6 @@ header {
   margin-left: 70px;
   margin-right: 30px;
   max-width: 500px;
-}
-
-.right-flexbox-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 180px;
-  margin-right: 20px;
-  flex-shrink: 0;
 }
 
 .hamburger_menu-img {
