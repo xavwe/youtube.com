@@ -7,4 +7,33 @@
     top: 55px;
     background-color: white;
     width: 72px;
+    z-index: 101;
+    padding-top: 5px;
+}
+
+
+// div
+
+.sidebar_link-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 74px;
+    cursor: pointer;
+    :hover {
+        background-color: rgb(235, 235, 235);
+    }
+}
+.sidebar_link-div div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}
+
+
+// img
+
+.sidebar_link-div img {
+    height: 24px;
+    margin-bottom: 4px;
 }

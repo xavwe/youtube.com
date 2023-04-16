@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 35px;
 }
@@ -13,7 +13,7 @@ main {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 .video_author-p,
 .video_stats-p {
@@ -31,7 +31,7 @@ main {
     vertical-align: top;
 }
 .thumbnail-div {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }
 .video_time-div {
@@ -55,7 +55,7 @@ main {
 // img
 
 .channel-img {
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 }
 .thumbnail-img {
