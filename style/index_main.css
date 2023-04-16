@@ -1,7 +1,9 @@
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  row-gap: 35px;
 }
 
 .video_title-p {
@@ -35,14 +37,6 @@ p {
   grid-template-columns: 50px 1fr;
 }
 
-.preview-grid-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  -moz-column-gap: 16px;
-       column-gap: 16px;
-  row-gap: 35px;
-}
-
 .channel-img {
   width: 40px;
   border-radius: 50px;
@@ -50,8 +44,4 @@ p {
 
 .thumbnail-img {
   width: 100%;
-}
-
-.search_bar-input {
-  display: block;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index_main.css.map */

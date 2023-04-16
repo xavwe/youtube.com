@@ -1,10 +1,13 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 35px;
+}
+
+
 // p
 
-p {
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
 .video_title-p {
     margin-top: 0;
     font-size: 14px;
@@ -34,12 +37,7 @@ p {
     display: grid;
     grid-template-columns: 50px 1fr;
 }
-.preview-grid-div {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-column-gap: 16px;
-row-gap: 35px;
-}
+
 
 // img
 
@@ -49,11 +47,4 @@ row-gap: 35px;
 }
 .thumbnail-img {
     width: 100%;
-}
-
-
-// input
-
-.search_bar-input {
-    display: block;
 }

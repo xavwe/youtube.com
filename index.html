@@ -7,19 +7,40 @@
     <meta name="description" content="Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.">
     <meta name="keywords" content="video, music, enjoy">
     <meta name="author" content="Xaver Wenhart">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/index_main.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@400;500;700&display=swap">
     <title>YouTube</title>
 </head>
 <body>
-    <input class="search_bar-input" type="text" placeholder="Search">
+    <header>
+        <div class="left-flexbox-div">
+            <img class="hamburger_menu-img" src="src/icons/hamburger-menu.svg" alt="menu">
+            <img class="youtube_logo-img" src="src/youtube-logo.svg" alt="youtube logo">
+        </div>
+        <div class="middle-flexbox-div">
+            <input class="search_bar-input" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search_icon-img" src="src/icons/search.svg" alt="search">
+            </button>
+            <button class="voice_search-button">
+                <img class="voice_search_icon_img" src="src/icons/voice-search-icon.svg" alt="voice-search">
+            </button>
+        </div>
+        <div class="right-flexbox-div">
+            <img class="upload_icon-img" src="src/icons/upload.svg" alt="upload">
+            <img class="apps_icon-img" src="src/icons/youtube-apps.svg" alt="apps">
+            <img class="notifications_icon-img" src="src/icons/notifications.svg" alt="notifications">
+            <img class="current_user_channel_profil_picture-img" src="src/channel-profil-pics/my-channel.jpeg" alt="your channel picture">
+        </div>
+    </header>
 
-    <div class="preview-grid-div">
+    <main>
         <div id="video_preview-div-1" class="video_preview-div">
             <div class="thumbnail-div">
                 <img class="thumbnail-img" src="src/thumbnails/thumbnail-1.webp">
@@ -155,6 +176,6 @@
                 </div>
             </div>
         </div>
-    </div>
+    </main>
 </body>
 </html>
