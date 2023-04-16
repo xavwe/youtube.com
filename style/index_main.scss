@@ -16,7 +16,7 @@
 @media (min-width: 1000px) {
     #video_grid-section {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-    
+    }
 }
 
 
@@ -73,4 +73,7 @@
 }
 .thumbnail-img {
     width: 100%;
+}
+.pointer {
+    cursor: pointer;
 }
