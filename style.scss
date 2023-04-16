@@ -32,16 +32,14 @@ p {
     margin-left: 7.5px;
 }
 .channel_picture-div {
-    display: inline-block;
-    width: 50px;
     vertical-align: top;
-}
-.video_info-div {
-    display: inline-block;
-    width: 200px;
 }
 .thumbnail-div {
     margin-bottom: 12px;
+}
+.video_info-grid-div {
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 
